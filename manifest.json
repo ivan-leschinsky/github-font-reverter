@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Github font reverter",
+  "description": "This extension reverts font on github.com",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "github-512.png"
+  },
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ]
+}
